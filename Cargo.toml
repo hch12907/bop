@@ -1,0 +1,6 @@
+[package]
+name = "notion"
+version = "0.1.0"
+authors = ["Zypeh <Zypeh.geek@gmail.com>"]
+
+[dependencies]
