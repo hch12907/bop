@@ -5,6 +5,7 @@ Notion is a experimental editor that written in Rust.
 Status
 ======
 [![Build Status](https://travis-ci.org/LeagueofWizard/notion.svg)](https://travis-ci.org/LeagueofWizard/notion)
+[![Coverage Status](https://coveralls.io/repos/LeagueofWizard/notion/badge.svg?branch=master&service=github)](https://coveralls.io/github/LeagueofWizard/notion?branch=master)
 [![Issue Stats](http://www.issuestats.com/github/LeagueofWizard/notion/badge/pr?style=flat)](http://www.issuestats.com/github/LeagueofWizard/notion)
 [![Issue Stats](http://www.issuestats.com/github/LeagueofWizard/notion/badge/issue?style=flat)](http://www.issuestats.com/github/LeagueofWizard/notion)
 
@@ -26,5 +27,4 @@ cargo build --release
 License
 -------
 [![The BSD 3-Clause License](https://img.shields.io/badge/license-BSD%203--Clause-blue.svg?style=flat-square)](https://opensource.org/licenses/BSD-3-Clause)
-
 
