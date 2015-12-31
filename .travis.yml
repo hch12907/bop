@@ -6,8 +6,13 @@ rust:
 
 matrix:
   fast_finish: true
-  allow_failures:
+  include:
     - rust: nightly
+      env: FEATURES="--features nightly"
+    - rust: beta
+    - rust: stable
+    - rust: stable
+      env: FEATURES="--no-default-features"
 
 script:
   - cargo build --verbose
@@ -33,7 +38,7 @@ addons:
       - libdw-dev
 
 after_success: |
-  [ $TRAVIS_RUST_VERSION = stable ] &&  
+ [ $TRAVIS_RUST_VERSION = stable ] &&
   wget https://github.com/SimonKagstrom/kcov/archive/master.tar.gz &&
   tar xzf master.tar.gz && mkdir kcov-master/build && cd kcov-master/build &&
   cmake .. &&
