@@ -31,6 +31,7 @@ addons:
       - libcurl4-openssl-dev
       - libelf-dev
       - libdw-dev
+      # Required by doc generation
       - binutils-dev
 
 before_script:
