@@ -26,5 +26,5 @@ cargo build --release
 
 License
 -------
-[![The BSD 3-Clause License](https://img.shields.io/badge/license-BSD%203--Clause-blue.svg?style=flat-square)](https://opensource.org/licenses/BSD-3-Clause)
+[![The BSD 2-Clause License](https://img.shields.io/badge/license-BSD%202--Clause-blue.svg?style=flat-square)](https://opensource.org/licenses/BSD-2-Clause)
 
