@@ -7,6 +7,19 @@ authors = ["Zypeh <Zypeh.geek@gmail.com>"]
 nightly = []
 
 [dependencies]
+log = "*"
+env_logger = "*"
+bitflag = "*"
+time = "*"
+num_cpus = "*"
+
+# windows compositors
+glutin = { git = "https://github.com/tomaka/glutin" }
+x11 = "2.0"
+
+[dependencies.servo]
+git = "https://github.com/servo/servo"
+path = "components/servo"
 
 [[bin]]
 name = "notion"
