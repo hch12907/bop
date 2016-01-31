@@ -9,7 +9,7 @@ nightly = []
 [dependencies]
 log = "*"
 env_logger = "*"
-bitflag = "*"
+bitflags = "*"
 time = "*"
 num_cpus = "*"
 
