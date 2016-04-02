@@ -1,5 +1,5 @@
 [package]
-name = "notion"
+name = "bop"
 version = "0.1.0"
 authors = ["Zypeh <Zypeh.geek@gmail.com>"]
 
@@ -22,5 +22,5 @@ git = "https://github.com/servo/servo"
 path = "components/servo"
 
 [[bin]]
-name = "notion"
-path = "src/notion.rs"
+name = "bop"
+path = "src/bop.rs"
