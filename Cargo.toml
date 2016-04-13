@@ -1,0 +1,20 @@
+[package]
+name = "bop"
+version = "0.1.0"
+description = "Experimental editor infrastructure"
+repository = "https://github.com/zypeh/bop"
+license = "BSD-2Clause"
+authors = ["zypeh <zypeh.geek@gmail.com>"]
+
+[dependencies.clap]
+version = "2"
+default-features = false
+
+[lib]
+name = "bop"
+path = "src/bop/lib.rs"
+
+[[bin]]
+name = "bop"
+path = "src/bop.rs"
+doc = false

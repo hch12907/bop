@@ -1,6 +1,6 @@
 Bop
 ===
-bop is a experimental editor that written in Rust.
+Bop is an experimental editor infrastructure that written in Rust.
 
 License
 -------
