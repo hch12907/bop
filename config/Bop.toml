@@ -1,0 +1,6 @@
+# This is bop editor's example configuration file
+# This should be place on the ~/.bop
+
+[bop]
+version = "0.1"
+license = "BSD-2Clause"
