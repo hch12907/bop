@@ -1,6 +1,6 @@
 Bop
 ===
-[![Travis](https://img.shields.io/travis/zypeh/bop.svg?branch=master?style=flat-square)](https://travis-ci.org/zypeh/bop)
+[![Travis](https://img.shields.io/travis/zypeh/bop/master.svg?style=flat-square)](https://travis-ci.org/zypeh/bop)
 
 Bop is an experimental editor infrastructure that written in Rust.
 
