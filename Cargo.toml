@@ -5,7 +5,7 @@ description = "Experimental editor infrastructure"
 repository = "https://github.com/zypeh/bop"
 homepage = "https://github.com/zypeh/bop"
 keywords = ["editor", "infrastructure", "text"]
-license = "BSD-2Clause"
+license = "BSD-2-Clause"
 authors = ["zypeh <zypeh.geek@gmail.com>"]
 
 [dependencies.clap]
