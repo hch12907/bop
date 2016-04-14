@@ -5,6 +5,7 @@ rust:
 sudo: false
 script:
     - cargo build
+    - cargo test
 os:
   - windows
   - linux

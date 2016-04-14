@@ -12,7 +12,7 @@ default-features = false
 
 [lib]
 name = "bop"
-path = "src/bop/lib.rs"
+path = "lib/lib.rs"
 
 [[bin]]
 name = "bop"
