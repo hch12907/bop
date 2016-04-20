@@ -1,7 +1,6 @@
 extern crate clap;
 use clap::{Arg, App};
 
-#[warn(unused_variables)]
 fn main() {
     App::new("bop")
         .version("0.1")
