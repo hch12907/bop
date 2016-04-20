@@ -12,6 +12,12 @@ authors = ["zypeh <zypeh.geek@gmail.com>"]
 version = "2"
 default-features = false
 
+[dependencies.rope]
+git = "https://github.com/SSheldon/rust-rope.git"
+
+# [dependencies.tempdir]
+# version = "0.3"
+
 [lib]
 name = "bop"
 path = "lib/lib.rs"

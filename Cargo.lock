@@ -3,6 +3,7 @@ name = "bop"
 version = "0.1.0"
 dependencies = [
  "clap 2.2.5 (registry+https://github.com/rust-lang/crates.io-index)",
+ "rope 0.0.0 (git+https://github.com/SSheldon/rust-rope.git)",
 ]
 
 [[package]]
@@ -18,6 +19,11 @@ dependencies = [
  "bitflags 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "vec_map 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
+
+[[package]]
+name = "rope"
+version = "0.0.0"
+source = "git+https://github.com/SSheldon/rust-rope.git#112f9cae0fd7dc7f3ee54a6f9ced9a3b0bec1143"
 
 [[package]]
 name = "vec_map"
