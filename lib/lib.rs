@@ -1,3 +1,14 @@
+//! Bop
+//!
+//! An experimental editor infrastructure
+
+// Crates
+extern crate rope;
+//extern crate tempdir
+
+// modules
+mod buffer;
+
 #[test]
 fn it_works() {
 }
