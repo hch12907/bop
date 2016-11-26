@@ -9,18 +9,11 @@ license = "BSD-2-Clause"
 authors = ["zypeh <zypeh.geek@gmail.com>"]
 
 [dependencies.clap]
-version = "2"
-default-features = false
+version = "~2.19.0"
 
-[dependencies.rope]
-git = "https://github.com/SSheldon/rust-rope.git"
-
-# [dependencies.tempdir]
-# version = "0.3"
-
-[lib]
-name = "bop"
-path = "lib/lib.rs"
+#[lib]
+#name = "bop"
+#path = "lib/lib.rs"
 
 [[bin]]
 name = "bop"
