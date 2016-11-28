@@ -4,8 +4,8 @@
 [![Builds][travis-img]][travis-url]
 [![Code coverage][coveralls-img]][coveralls-url]
 
-  Bop is an __unopinoinated__ editor infrastructure to make the process of
-  development less hassle, and more enjoyable.
+  Bop is an *__unbiased__* editor infrastructure to make the process of
+  development more convenient, and more enjoyable.
 
 ## Philosophy
   Bop loads other packages which are written with predefined interfaces and 
@@ -16,7 +16,7 @@
   - Highly configurable
 
 ## Installation
-  Bop requires __rust v1.6.0__ or higher. We can install it via __cargo__
+  Bop requires __rust v1.6.0__ or higher. It can be installed via the __cargo__
   package manager. Or get the precompiled binaries here. [Stable release][release-url].
 
   ```
@@ -24,12 +24,12 @@
   ```
 
 ## Bundles
-  __Bundles__ are mean to "augments bop", extending the functionality of Bop.
+  __Bundles__ are meant to "augment bop", extending the functionality of Bop.
   Here is the aim of bundles:
 
-  - Bundles should expose services
+  - Bundles should expose their services
   - Bundles should communicate with other packages via available services
-  - Bundles should expose objects, whichs can be configured in config files
+  - Bundles should expose their objects, which can be configured in the config files
 
 ## Community
 
